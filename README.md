@@ -10,4 +10,4 @@ pip install git+https://github.com/Matiiss/pygame-builtins
 You can just use the name `pygame` in your environment freely, like any other built-in, for example, `int` or `str`.
 
 ## Rationale
-What now?
+What?
