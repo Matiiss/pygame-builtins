@@ -5,4 +5,11 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "pygame-builtins"
 version = "1.0.0"
-dependencies = ["pygame-ce"]
+dependencies = ["pygame-ce", "tomlkit"]
+
+[project.optional-dependencies]
+test = ["pytest"]
+dev = ["pytest", "black"]
+
+[pytest]
+testpaths = "tests"
